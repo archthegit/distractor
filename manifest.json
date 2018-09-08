@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "MovieNews",
+  "description": "Popular movies and TV shows in your default tab",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_title": "movies"
+  },
+
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+
+}
